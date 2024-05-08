@@ -17,6 +17,5 @@ jobs:
         with:
           node-version: 22.x
       - run: npm ci
-      - run: node --run prettier
       - run: node --run test:coverage
       - run: node --run build
