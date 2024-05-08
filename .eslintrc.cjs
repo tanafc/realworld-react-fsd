@@ -8,9 +8,7 @@ module.exports = {
   extends: [
     'plugin:eslint-plugin-import/recommended',
     'plugin:react-hooks/recommended',
-    'eslint-config-prettier',
     'eslint-config-airbnb',
-    'prettier',
   ],
   env: {
     browser: true,
@@ -113,7 +111,6 @@ module.exports = {
           },
         ],
       },
-
     },
     {
       files: ['**/__tests__/**/*.{test,spec}.?(c|m)[jt]s?(x)'],
