@@ -6,9 +6,9 @@ module.exports = {
   },
   plugins: ['react-refresh'],
   extends: [
-    'plugin:eslint-plugin-import/recommended',
-    'plugin:react-hooks/recommended',
-    'eslint-config-airbnb',
+    // 'plugin:eslint-plugin-import/recommended',
+    // 'plugin:react-hooks/recommended',
+    // 'eslint-config-airbnb',
   ],
   env: {
     browser: true,
